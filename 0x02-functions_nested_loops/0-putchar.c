@@ -21,5 +21,6 @@ int main(void)
 		_putchar(word[i]);
 
 	_putchar('\n');
-Return(0);
+
+	return (0);
 }
