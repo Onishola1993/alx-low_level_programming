@@ -4,40 +4,36 @@
 
 /**
 
- * main -  prints _putchar, followed by a new line
+ * print_alphabet - Entry point
 
- * Return: Always 0 (Success)
+ * Return:0
 
  */
 
-int main(void)
+
+
+void print_alphabet(void)
 
 {
 
-	_putchar('_');
+	char c = 'a';
 
-	_putchar('p');
 
-	_putchar('u');
 
-	_putchar('t');
+	while (c <= 'z')
 
-	_putchar('c');
+	{
 
-	_putchar('h');
+		_putchar(c);
 
-	_putchar('a');
+		c++;
 
-	_putchar('r');
+
+
+	}
 
 	_putchar('\n');
 
 
 
-	return (0);
-
 }
-
-Footer
-
-© 2022 GitHub, Inc.
